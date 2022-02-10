@@ -269,7 +269,7 @@ class Marvin(object):
             data['mfa_serial']
         )
         
-        if self.debug:
+        if self.DEBUG:
             self.print('Running command: {}'.format(cmd))
         
         response = self.run_command(cmd)
